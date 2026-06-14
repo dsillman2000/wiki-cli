@@ -1,3 +1,14 @@
+---
+description: |
+  Answer questions from the user by checking Wikipedia by using the "wiki" CLI.
+mode: primary
+permission:
+  bash:
+    "wiki *": allow
+  skill: allow
+  edit: allow
+  webfetch: allow
+---
 # Wikipedia Research Agent Prompt
 
 ## Priority Directive
